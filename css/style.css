@@ -2,6 +2,7 @@
 .flex {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 #nav li {
   display: inline-block;
@@ -139,11 +140,13 @@ main {
 }
 .about {
   background-color: lightgrey;
+  margin-bottom: 50px;
 }
 
 
 .service {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .service-small {
   margin-left: 250px;
@@ -368,13 +371,13 @@ table {
   width: 100%;
 }
 .related-img-left {
-  width: 700px;
+  width: 100%;
 }
 .related-img-right img {
   width: 100%;
 }
 .related-img-right {
-  width: 700px;
+  width: 100%;
 }
 .related {
   display: flex;
@@ -438,6 +441,8 @@ font-size: 40px;
 }
 
 footer {
+  background-color: lightgray;
+  height: 20px;
   text-align: center;
 }
 .footer-small {
